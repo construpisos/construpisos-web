@@ -3,71 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CONSTRUPISOS Y VINILOS S.A.S.</title>
+  <title>Construpisos y Vinilos</title>
   <style>
-    body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f8f8f8;}
-    header {background:#7B2D26; color:white; padding:15px; text-align:center;}
-    nav a {color:white; text-decoration:none; margin:0 10px; font-weight:bold;}
-    .hero {padding:40px; text-align:center; background:url('assets/fondo-marmol.jpg') no-repeat center/cover; color:#7B2D26;}
-    .hero h1 {font-size:2.5em;}
-    section {max-width:1000px; margin:30px auto; padding:20px; background:white; border-radius:8px;}
-    .grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px;}
-    .grid img {width:100%; border-radius:8px; height:150px; object-fit:cover;}
-    footer {background:#333; color:white; text-align:center; padding:10px;}
-    .btn-wa {background:#25D366; color:white; padding:10px 20px; text-decoration:none; border-radius:5px;}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      text-align: center;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+    }
+
+    header img {
+      width: 200px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 10px 0;
+      color: #333;
+    }
+
+    p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #ff6600;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 18px;
+      margin-top: 15px;
+    }
+
+    .cta-button:hover {
+      background-color: #cc5200;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #222;
+      color: white;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
+  <!-- Encabezado con logo -->
   <header>
-    <img src="assets/logo.png" alt="Logo" style="height:50px; vertical-align:middle;">
-    <nav>
-      <a href="#servicios">Servicios</a>
-      <a href="#galeria">Galería</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
+    <img src="assets/Logo.png" alt="Logo Construpisos y Vinilos">
+    <h1>Construpisos y Vinilos</h1>
+    <p>Calidad y cumplimiento en cada proyecto</p>
   </header>
 
-  <div class="hero">
-    <h1>CONSTRUPISOS Y VINILOS S.A.S.</h1>
-    <p>Calidad y Cumplimiento en cada proyecto</p>
-  </div>
+  <!-- Botón de contacto directo -->
+  <a class="cta-button" href="https://wa.me/573181485796" target="_blank">
+    Contáctanos por WhatsApp
+  </a>
 
-  <section id="servicios">
-    <h2>Servicios</h2>
-    <ul>
-      <li>Tejas U.PVC</li>
-      <li>Cielo raso en PVC</li>
-      <li>Tornillería</li>
-      <li>Estructuras</li>
-      <li>Pisos en PVC</li>
-      <li>Yumbolon</li>
-      <li>Panel Marmolado</li>
-      <li>Frescasa</li>
-      <li>Panel WPC</li>
-      <li>Lámparas LED</li>
-      <li>Policarbonato</li>
-    </ul>
+  <!-- Sección de ejemplo -->
+  <section>
+    <h2>Nuestros Servicios</h2>
+    <p>Pisos, vinilos y remodelaciones con materiales de la más alta calidad.</p>
+    <p>Jamundí, Valle del Cauca - Tel: 3181485796</p>
   </section>
 
-  <section id="galeria">
-    <h2>Galería</h2>
-    <div class="grid">
-      <img src="assets/ejemplo1.jpg" alt="Trabajo 1">
-      <img src="assets/ejemplo2.jpg" alt="Trabajo 2">
-      <img src="assets/ejemplo3.jpg" alt="Trabajo 3">
-      <img src="assets/ejemplo4.jpg" alt="Trabajo 4">
-    </div>
-  </section>
-
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Ubicación: Jamundí, Valle del Cauca</p>
-    <p>Teléfono / WhatsApp: <a href="https://wa.me/573181485796" class="btn-wa" target="_blank">3181485796</a></p>
-    <p>Email: construpisosyviniloss@gmail.com</p>
-  </section>
-
+  <!-- Pie de página -->
   <footer>
-    &copy; 2025 CONSTRUPISOS Y VINILOS S.A.S. - Todos los derechos reservados
+    &copy; 2024 Construpisos y Vinilos - Todos los derechos reservados
   </footer>
 </body>
 </html>
