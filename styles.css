@@ -1,58 +1,58 @@
-/* Fondo general */
+/* Estilo general */
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  text-align: center; /* ✅ Centra todo el texto */
-  background: url("assets/marmol.jpg") no-repeat center center fixed;
+  margin: 0;
+  padding: 0;
+  background: url("bg0.png") no-repeat center center fixed;
   background-size: cover;
-  color: #000;
+  color: #333;
+  text-align: center;
 }
 
-/* Encabezado con logo */
-.header-banner {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-.header-banner .logo-img {
-  max-width: 250px; /* Ajusta tamaño del logo */
+/* Logo */
+.logo-img {
+  max-width: 280px;
   height: auto;
-  background: transparent; /* ✅ evita fondo blanco */
+  display: block;
+  margin: 0 auto 20px;  /* espacio debajo del logo */
+}
+
+/* Encabezado */
+header {
+  padding: 20px;
+  margin-bottom: 40px; /* empuja el texto hacia abajo */
 }
 
 /* Botón de WhatsApp */
-.btn-whatsapp {
+.cta-button {
   display: inline-block;
-  margin: 15px 0;
-  padding: 10px 20px;
-  background: #25d366;
-  color: #fff;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 24px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 8px;
   font-weight: bold;
+  margin: 20px 0;
 }
 
-/* Sección de servicios */
-h2 {
-  margin-top: 20px;
-  font-size: 22px;
+.cta-button:hover {
+  background-color: #20b858;
 }
 
-ul {
-  list-style: none; /* ✅ Quita los punticos */
-  padding: 0;
+/* Secciones */
+section {
+  margin: 30px auto;
+  max-width: 600px;
 }
 
-ul li {
-  margin: 5px 0;
+h1, h2 {
+  margin: 15px 0;
 }
 
 /* Footer */
 footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 15px;
   margin-top: 30px;
-  font-size: 14px;
-  color: #333;
 }
