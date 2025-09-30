@@ -1,0 +1,39 @@
+/* ==== ESTILOS DEL BANNER ==== */
+.header-banner {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 250px; /* Altura fija del banner */
+}
+
+.logo-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Llenar todo el espacio aunque recorte un poco */
+    display: block;
+}
+
+/* ==== ESTILOS GENERALES ==== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+p, li {
+    line-height: 1.5;
+}
