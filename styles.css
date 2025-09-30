@@ -7,9 +7,10 @@ body {
 /* Header con logo */
 .header-banner {
     width: 100%;
-    height: 300px; /* altura en PC */
+    height: 300px; 
     background: url("assets/logo2.png") no-repeat center center;
-    background-size: cover; /* rellena y recorta */
+    background-size: contain; /* Ahora se ve completo */
+    background-color: black;  /* fondo para rellenar */
 }
 
 /* Ajuste para tablet */
