@@ -1,79 +1,67 @@
-/* --- HEADER / LOGO --- */
+/* Encabezado tipo banner con fondo negro */
 .header-banner {
-  width: 100%;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  height: 180px; /* altura en PC */
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
+/* Logo como banner responsivo */
 .logo-banner {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* rellena aunque recorte */
-  display: block;
+    width: 100%;          /* Ocupa todo el ancho */
+    height: auto;         /* Mantiene proporción */
+    max-height: 300px;    /* Controla la altura máxima */
+    object-fit: cover;    /* Rellena aunque recorte un poco */
 }
 
-/* Ajustes responsivos */
+/* Ajustes para tablet */
 @media (max-width: 768px) {
-  .header-banner {
-    height: 140px;
-  }
+    .logo-banner {
+        max-height: 200px;
+    }
 }
 
+/* Ajustes para móviles pequeños */
 @media (max-width: 480px) {
-  .header-banner {
-    height: 100px;
-  }
+    .logo-banner {
+        max-height: 150px;
+    }
 }
 
-/* --- ESTILOS GENERALES --- */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f8f8f8;
-  color: #333;
-}
-
-main {
-  padding: 20px;
-}
-
-h1, h2 {
-  color: #222;
-  margin-bottom: 10px;
-}
-
-p, li {
-  line-height: 1.5;
-}
-
-/* --- BOTÓN DE CONTACTO --- */
+/* Botón de WhatsApp */
 .cta-button {
-  display: inline-block;
-  margin: 20px 0;
-  padding: 12px 20px;
-  background-color: #25d366; /* verde WhatsApp */
-  color: white;
-  font-size: 16px;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background-color 0.3s;
+    display: inline-block;
+    background-color: #25D366; /* Verde WhatsApp */
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 20px 0;
+    transition: background 0.3s ease;
 }
 
 .cta-button:hover {
-  background-color: #1ebe5d;
+    background-color: #1ebe5b;
 }
 
-/* --- FOOTER --- */
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+main {
+    padding: 20px;
+}
+
 footer {
-  margin-top: 40px;
-  padding: 20px;
-  background-color: #222;
-  color: white;
-  text-align: center;
-  font-size: 14px;
+    text-align: center;
+    padding: 15px;
+    background-color: #f4f4f4;
+    margin-top: 30px;
 }
